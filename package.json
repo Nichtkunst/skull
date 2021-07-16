@@ -1,0 +1,34 @@
+{
+  "name": "reflectorplanes-and-bloom",
+  "version": "1.0.0",
+  "description": "Playing with reflections, bloom and camera-shake.",
+  "keywords": [
+    "camera-shake",
+    "reflection",
+    "bloom"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "7.0.6",
+    "@react-three/fiber": "7.0.2",
+    "@react-three/postprocessing": "2.0.4",
+    "drei": "2.2.21",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "react-three-fiber": "5.3.22",
+    "three": "0.130.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
